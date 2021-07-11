@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(to right, #91A2C6, #BCBFC8);
+    font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	color: #2d2d2d;
+}
+input, select, label {
+	padding: 0px 5px;
+	margin-left: 5px;
+	height: 30px;
+}
+label {
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+}
+input[type="radio"] {
+	height: 10px;
+	margin-left: 20px;
+}
+.container {
+	width: 80vw;
+    height: 80vw;
+	background-color: #edeef2;
+	box-shadow: 0 0 10px -5px #2d2d2d;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 40px;
+}
+.card-input {
+	padding: 40px 20px;
+	border: 1px #2d2d2d solid;
+	float: left;
+}
+.card-body {
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+}
+.form-input {
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+}
+.col {
+	float: left;
+	margin-right: 10px;
+}
+.request {
+	color: red
+}
+.submit {
+	background: green;
+	color: white;
+	border: 1px #2d2d2d solid;
+	padding: 15px 30px;
+	margin-right: 50px;
+}
+.inputCreate {
+	float: left;
+}
